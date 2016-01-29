@@ -1,0 +1,13 @@
+Create TABLE main.book (
+id Integer PRIMARY KEY,
+title String(80),
+rating Integer,
+image String(30),
+author_id Integer
+);
+
+INSERT INTO main.book VALUES(1, 'Wheel of Time', '5', 'Dragons', '2'); 
+
+SELECT book.id, book.title, book.rating FROM book;
+
+ALTER TABLE {tableName} ADD COLUMN COLNew {type};

@@ -1,0 +1,212 @@
+2015-12-12 08:44:37,267 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) unable to open database file
+2015-12-12 08:44:37,941 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) unable to open database file
+2015-12-12 08:44:46,606 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) unable to open database file
+2015-12-12 08:46:08,394 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: user [SQL: u'SELECT user.id AS user_id, user.email AS user_email, user.password AS user_password, user.active AS user_active \nFROM user \nWHERE lower(user.email) LIKE lower(?)\n LIMIT ? OFFSET ?'] [parameters: (u'pcameron5@gmail.com', 1, 0)]
+2015-12-12 08:46:16,785 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: user [SQL: u'SELECT user.id AS user_id, user.email AS user_email, user.password AS user_password, user.active AS user_active \nFROM user \nWHERE lower(user.email) LIKE lower(?)\n LIMIT ? OFFSET ?'] [parameters: (u'pcameron5@gmail.com', 1, 0)]
+2015-12-12 08:47:42,517 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: user [SQL: u'SELECT user.id AS user_id, user.email AS user_email, user.password AS user_password, user.active AS user_active \nFROM user \nWHERE lower(user.email) LIKE lower(?)\n LIMIT ? OFFSET ?'] [parameters: (u'admin@test.com', 1, 0)]
+2015-12-12 08:47:48,534 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: user [SQL: u'SELECT user.id AS user_id, user.email AS user_email, user.password AS user_password, user.active AS user_active \nFROM user \nWHERE lower(user.email) LIKE lower(?)\n LIMIT ? OFFSET ?'] [parameters: (u'admin@test.com', 1, 0)]
+2015-12-12 08:48:55,659 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names, book_1.id AS book_1_id, book_1.title AS book_1_title, book_1.rating AS book_1_rating, book_1.image AS book_1_image, book_1.author_id AS book_1_author_id \nFROM author LEFT OUTER JOIN book AS book_1 ON author.id = book_1.author_id']
+2015-12-12 08:48:56,238 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-12 08:51:49,990 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-12 08:51:50,439 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names, book_1.id AS book_1_id, book_1.title AS book_1_title, book_1.rating AS book_1_rating, book_1.image AS book_1_image, book_1.author_id AS book_1_author_id \nFROM author LEFT OUTER JOIN book AS book_1 ON author.id = book_1.author_id']
+2015-12-15 08:34:39,138 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names, book_1.id AS book_1_id, book_1.title AS book_1_title, book_1.rating AS book_1_rating, book_1.image AS book_1_image, book_1.author_id AS book_1_author_id \nFROM author LEFT OUTER JOIN book AS book_1 ON author.id = book_1.author_id']
+2015-12-15 08:34:46,144 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: user [SQL: u'SELECT user.id AS user_id, user.email AS user_email, user.password AS user_password, user.active AS user_active \nFROM user \nWHERE lower(user.email) LIKE lower(?)\n LIMIT ? OFFSET ?'] [parameters: (u'pcameron5@gmail.com', 1, 0)]
+2015-12-15 08:35:46,409 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-15 08:35:49,437 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-15 08:35:50,856 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names, book_1.id AS book_1_id, book_1.title AS book_1_title, book_1.rating AS book_1_rating, book_1.image AS book_1_image, book_1.author_id AS book_1_author_id \nFROM author LEFT OUTER JOIN book AS book_1 ON author.id = book_1.author_id']
+2015-12-15 08:35:51,392 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-17 07:49:16,708 - bookshelf - ERROR - Unhandled Exception: 'bool' object has no attribute '__call__'
+2015-12-17 07:49:42,415 - bookshelf - ERROR - Unhandled Exception: 'bool' object has no attribute '__call__'
+2015-12-17 07:49:46,621 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-17 07:50:17,674 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-17 07:50:20,023 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names, book_1.id AS book_1_id, book_1.title AS book_1_title, book_1.rating AS book_1_rating, book_1.image AS book_1_image, book_1.author_id AS book_1_author_id \nFROM author LEFT OUTER JOIN book AS book_1 ON author.id = book_1.author_id']
+2015-12-17 07:50:20,953 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-17 07:57:19,045 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-17 07:57:19,447 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names, book_1.id AS book_1_id, book_1.title AS book_1_title, book_1.rating AS book_1_rating, book_1.image AS book_1_image, book_1.author_id AS book_1_author_id \nFROM author LEFT OUTER JOIN book AS book_1 ON author.id = book_1.author_id']
+2015-12-17 08:08:30,807 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:23:17,914 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: booksGalore [SQL: u'SELECT "booksGalore".id AS "booksGalore_id", "booksGalore".title AS "booksGalore_title", "booksGalore".rating AS "booksGalore_rating", "booksGalore".image AS "booksGalore_image", "booksGalore".author_id AS "booksGalore_author_id" \nFROM "booksGalore"']
+2015-12-18 07:24:24,790 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:24:28,547 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:31:58,709 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:32:06,198 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:32:46,528 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:32:48,767 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:33:38,404 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:33:47,729 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:35:24,175 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:42:07,472 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:42:08,140 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image, book.author_id AS book_author_id \nFROM book']
+2015-12-18 07:42:21,988 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:43:32,652 - bookshelf - ERROR - Page not found: (u'/book', <NotFound '404: Not Found'>)
+2015-12-18 07:43:35,366 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:43:36,576 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:46:29,354 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:46:47,371 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: main.book [SQL: u'SELECT "main.book".id AS "main.book_id", "main.book".title AS "main.book_title", "main.book".rating AS "main.book_rating", "main.book".image AS "main.book_image" \nFROM "main.book"']
+2015-12-18 07:47:12,298 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:47:12,665 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:49:03,828 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:50:33,431 - bookshelf - ERROR - Unhandled Exception: Invalid SQLite URL: sqlite://storage//home/sa03/MEGA/http/git/flask-bookshelf/bookshelf/main.db
+Valid SQLite URL forms are:
+ sqlite:///:memory: (or, sqlite://)
+ sqlite:///relative/path/to/file.db
+ sqlite:////absolute/path/to/file.db
+2015-12-18 07:50:55,121 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:51:04,865 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:51:18,930 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:51:55,247 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:52:20,579 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:52:22,016 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:52:36,369 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:52:52,490 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: main.book [SQL: u'SELECT "main.book".id AS "main.book_id", "main.book".title AS "main.book_title", "main.book".rating AS "main.book_rating", "main.book".image AS "main.book_image" \nFROM "main.book"']
+2015-12-18 07:53:10,377 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:55:15,608 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:55:47,649 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 07:55:48,968 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 08:34:44,973 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 08:34:45,352 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 08:34:46,361 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 08:34:46,973 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: book [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.image AS book_image \nFROM book']
+2015-12-18 08:36:09,808 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:36:09,888 - bookshelf - ERROR - Unhandled Exception: 'bookshelf.data.models.Book object' has no attribute 'author'
+2015-12-18 08:36:12,029 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:36:12,030 - bookshelf - ERROR - Unhandled Exception: 'bookshelf.data.models.Book object' has no attribute 'author'
+2015-12-18 08:37:02,960 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:37:02,971 - bookshelf - ERROR - Unhandled Exception: 'bookshelf.data.models.Book object' has no attribute 'author'
+2015-12-18 08:37:04,351 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:37:04,353 - bookshelf - ERROR - Unhandled Exception: 'bookshelf.data.models.Book object' has no attribute 'author'
+2015-12-18 08:37:19,651 - bookshelf - ERROR - Unhandled Exception: Could not determine join condition between parent/child tables on relationship Book.author - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2015-12-18 08:37:32,965 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:37:32,976 - bookshelf - ERROR - Unhandled Exception: 'bookshelf.data.models.Book object' has no attribute 'author'
+2015-12-18 08:41:30,548 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:41:30,688 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-18 08:41:30,733 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-18 08:44:09,914 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:44:10,027 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-18 08:44:10,043 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-18 08:44:22,678 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:44:22,808 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-18 08:44:22,823 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-18 08:44:35,150 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:44:35,277 - bookshelf - ERROR - Page not found: (u'/static/images/books/', <NotFound '404: Not Found'>)
+2015-12-18 08:44:45,910 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:44:46,009 - bookshelf - ERROR - Page not found: (u'/static/images/books/', <NotFound '404: Not Found'>)
+2015-12-18 08:45:07,926 - bookshelf - INFO - Displaying all books.
+2015-12-18 08:45:08,081 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-18 08:45:08,097 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:12:23,832 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:12:23,973 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:12:24,006 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:13:27,118 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:13:27,336 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:13:27,359 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:13:28,371 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:13:28,454 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:13:28,466 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:14:24,507 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:14:24,635 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:14:24,653 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:14:25,627 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:14:25,721 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:14:25,734 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:14:43,783 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:14:43,909 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:14:43,921 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:14:45,563 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:14:45,634 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:14:45,643 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:14:53,873 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:14:53,991 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:14:54,004 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:15:07,184 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:15:07,277 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:15:07,290 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:15:58,513 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:15:58,642 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:15:58,660 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:16:00,317 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:16:00,439 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:16:00,451 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:16:05,043 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:16:05,129 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:16:05,144 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:16:14,160 - bookshelf - ERROR - Page not found: (u'/books]', <NotFound '404: Not Found'>)
+2015-12-19 09:16:17,032 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:16:17,162 - bookshelf - ERROR - Page not found: (u'/static/images/books/Dragons', <NotFound '404: Not Found'>)
+2015-12-19 09:16:17,180 - bookshelf - ERROR - Page not found: (u'/static/images/books/Creation', <NotFound '404: Not Found'>)
+2015-12-19 09:18:37,931 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:20:29,611 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:20:35,215 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:20:39,011 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:20:40,613 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:22:57,772 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:23:00,236 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:23:00,904 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names \nFROM author']
+2015-12-19 09:23:02,218 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:23:34,559 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names \nFROM author']
+2015-12-19 09:23:35,029 - bookshelf - INFO - Displaying all books.
+2015-12-19 09:24:38,770 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names \nFROM author']
+2015-12-19 09:24:39,270 - bookshelf - INFO - Displaying all books.
+2016-01-23 09:34:44,894 - bookshelf - INFO - Displaying all books.
+2016-01-23 09:34:49,855 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such table: author [SQL: u'SELECT author.id AS author_id, author.names AS author_names \nFROM author']
+2016-01-23 09:34:50,429 - bookshelf - INFO - Displaying all books.
+2016-01-23 09:34:51,763 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:45:29,002 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:46:23,730 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:46:23,761 - bookshelf - ERROR - Unhandled Exception: ('main.display_authors', {}, None)
+2016-01-28 20:46:32,732 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:48:57,556 - bookshelf - ERROR - Page not found: (u'/books/', <NotFound '404: Not Found'>)
+2016-01-28 20:49:03,739 - bookshelf - ERROR - Page not found: (u'/books', <NotFound '404: Not Found'>)
+2016-01-28 20:49:26,319 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:49:26,323 - bookshelf - ERROR - Unhandled Exception: Encountered unknown tag 'continue'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2016-01-28 20:50:05,037 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:50:05,039 - bookshelf - ERROR - Unhandled Exception: Encountered unknown tag 'continue'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2016-01-28 20:50:07,376 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:50:07,379 - bookshelf - ERROR - Unhandled Exception: Encountered unknown tag 'continue'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2016-01-28 20:52:09,090 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:52:09,094 - bookshelf - ERROR - Unhandled Exception: Expected an expression, got 'end of print statement'
+2016-01-28 20:52:10,759 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:52:10,761 - bookshelf - ERROR - Unhandled Exception: Expected an expression, got 'end of print statement'
+2016-01-28 20:52:11,044 - bookshelf - INFO - Displaying all books.
+2016-01-28 20:52:11,045 - bookshelf - ERROR - Unhandled Exception: Expected an expression, got 'end of print statement'
+2016-01-28 20:53:33,724 - bookshelf - ERROR - Unhandled Exception: Expected an expression, got 'end of print statement'
+2016-01-28 20:55:42,864 - bookshelf - ERROR - Page not found: (u'/books/1', <NotFound '404: Not Found'>)
+2016-01-28 21:04:17,187 - bookshelf - ERROR - Page not found: (u'/books/1', <NotFound '404: Not Found'>)
+2016-01-28 21:04:25,500 - bookshelf - ERROR - Page not found: (u'/books/1', <NotFound '404: Not Found'>)
+2016-01-28 21:04:33,273 - bookshelf - ERROR - Unhandled Exception: 'BaseQuery' object is not callable
+2016-01-28 21:04:37,379 - bookshelf - ERROR - Unhandled Exception: 'BaseQuery' object is not callable
+2016-01-28 21:06:30,667 - bookshelf - ERROR - Unhandled Exception: 'NoneType' object is not iterable
+2016-01-28 21:07:01,786 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:08:39,382 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:09:53,907 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:09:59,188 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:10:21,721 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:10:30,501 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:10:34,210 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:10:35,457 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:10:47,179 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:10:54,740 - bookshelf - ERROR - Unhandled Exception: id_books() takes no arguments (1 given)
+2016-01-28 21:35:56,241 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:36:04,076 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:36:33,710 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:36:37,890 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:37:01,315 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:37:37,988 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:38:42,998 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:38:48,852 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:39:44,471 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:39:50,136 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 21:58:12,508 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/css/bootstrap-editable.css', <NotFound '404: Not Found'>)
+2016-01-28 21:58:12,526 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/js/bootstrap-editable.js', <NotFound '404: Not Found'>)
+2016-01-28 21:58:38,297 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/css/bootstrap-editable.css', <NotFound '404: Not Found'>)
+2016-01-28 21:58:38,306 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/js/bootstrap-editable.js', <NotFound '404: Not Found'>)
+2016-01-28 21:59:24,880 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/css/bootstrap-editable.css', <NotFound '404: Not Found'>)
+2016-01-28 21:59:24,914 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/js/bootstrap-editable.js', <NotFound '404: Not Found'>)
+2016-01-28 21:59:59,611 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/css/bootstrap-editable.css', <NotFound '404: Not Found'>)
+2016-01-28 21:59:59,630 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/js/bootstrap-editable.js', <NotFound '404: Not Found'>)
+2016-01-28 22:00:22,317 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/css/bootstrap-editable.css', <NotFound '404: Not Found'>)
+2016-01-28 22:00:22,329 - bookshelf - ERROR - Page not found: (u'/books/bootstrap-editable/js/bootstrap-editable.js', <NotFound '404: Not Found'>)
+2016-01-28 22:05:24,514 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 22:06:15,726 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 22:06:20,101 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-28 22:06:34,466 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
+2016-01-28 22:07:44,562 - bookshelf - ERROR - Unhandled Exception: global name 'books' is not defined

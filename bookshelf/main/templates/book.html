@@ -1,0 +1,24 @@
+{% extends 'layout.htm' %}
+{% block container %}
+<div class="top-pad">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>names</th>
+        </tr>
+        </thead>
+        <tbody>
+        <form action="{{books}}" method="post">
+            <input type="submit" name="save" value="Save"/>
+        </form>
+        <tr>
+            <td>{{data.id}}</td>
+            <td>
+                <div id="example-one" contenteditable="true">{{data.title}}</div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}
