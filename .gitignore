@@ -1,3 +1,4 @@
+# git rm -r --cached [folderName/ or *.fileType]
 *.pyc
 venv/
 .idea/

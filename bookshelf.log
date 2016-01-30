@@ -210,3 +210,65 @@ Valid SQLite URL forms are:
 2016-01-28 22:06:20,101 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
 2016-01-28 22:06:34,466 - bookshelf - ERROR - Unhandled Exception: 'ImmutableMultiDict' object has no attribute 'post'
 2016-01-28 22:07:44,562 - bookshelf - ERROR - Unhandled Exception: global name 'books' is not defined
+2016-01-30 08:17:49,544 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:18:11,724 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:20:22,285 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:20:27,756 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:20:34,204 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:20:42,958 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:20:46,873 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:20:49,305 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:21:15,883 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:21:58,524 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:22:53,676 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:23:00,354 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:23:14,268 - bookshelf - ERROR - Page not found: (u'/<function display_books at 0x7f7373b19758>', <NotFound '404: Not Found'>)
+2016-01-30 08:24:59,254 - bookshelf - ERROR - Page not found: (u'/<function display_books at 0x7f7373b19758>', <NotFound '404: Not Found'>)
+2016-01-30 08:25:05,795 - bookshelf - ERROR - Unhandled Exception: 'function' object has no attribute '__getitem__'
+2016-01-30 08:25:36,645 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:25:53,189 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:26:02,331 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:26:48,732 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:27:41,916 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:31:28,551 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:31:34,956 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:31:53,763 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:32:00,756 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:32:51,458 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:33:19,830 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:33:21,562 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:33:34,711 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:33:49,656 - bookshelf - ERROR - Unhandled Exception: global name 'db' is not defined
+2016-01-30 08:34:14,031 - bookshelf - ERROR - Unhandled Exception: type object 'Book' has no attribute 'session'
+2016-01-30 08:34:20,572 - bookshelf - ERROR - Unhandled Exception: type object 'Book' has no attribute 'session'
+2016-01-30 08:34:56,913 - bookshelf - ERROR - Unhandled Exception: ('new.com', {}, None)
+2016-01-30 08:37:01,210 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:37:28,361 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:37:33,105 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:37:47,989 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:38:00,969 - bookshelf - ERROR - Unhandled Exception: ('new.com', {}, None)
+2016-01-30 08:39:04,844 - bookshelf - ERROR - Unhandled Exception: 'function' object has no attribute '__getitem__'
+2016-01-30 08:39:43,313 - bookshelf - ERROR - Unhandled Exception: ('display_books', {}, None)
+2016-01-30 08:40:48,703 - bookshelf - ERROR - Unhandled Exception: ('display_books', {}, None)
+2016-01-30 08:41:36,128 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 08:59:03,577 - bookshelf - ERROR - Unhandled Exception: unexpected '.'
+2016-01-30 08:59:07,914 - bookshelf - ERROR - Unhandled Exception: unexpected '.'
+2016-01-30 09:03:15,710 - bookshelf - ERROR - Unhandled Exception: unexpected '.'
+2016-01-30 09:03:45,487 - bookshelf - ERROR - Unhandled Exception: unexpected '.'
+2016-01-30 09:03:57,846 - bookshelf - ERROR - Page not found: (u'/books/.id_books', <NotFound '404: Not Found'>)
+2016-01-30 09:04:16,851 - bookshelf - ERROR - Page not found: (u'/books/.id_books', <NotFound '404: Not Found'>)
+2016-01-30 09:04:17,742 - bookshelf - ERROR - Page not found: (u'/books/.id_books', <NotFound '404: Not Found'>)
+2016-01-30 09:04:18,097 - bookshelf - ERROR - Page not found: (u'/books/.id_books', <NotFound '404: Not Found'>)
+2016-01-30 09:04:18,230 - bookshelf - ERROR - Page not found: (u'/books/.id_books', <NotFound '404: Not Found'>)
+2016-01-30 09:08:19,124 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:08:20,923 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:08:23,649 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:15:44,061 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:16:14,751 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:16:21,327 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:17:03,930 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:17:05,716 - bookshelf - ERROR - Unhandled Exception: unexpected '.'
+2016-01-30 09:17:14,347 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:17:47,294 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:17:53,019 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-01-30 09:18:07,022 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)

@@ -1,5 +1,15 @@
 {% extends 'layout.htm' %}
 {% block container %}
+<script type="text/javascript">
+    function getContent(){
+        document.getElementById("{{rand}}").value = document.getElementById("{{rand2}}").innerHTML;
+    }
+</script>
+<style>
+    .font-color-red{
+        color: red;
+    }
+</style>
 <!-- https://vitalets.github.io/x-editable/docs.html -->
 <div class="top-pad">
     <table class="table table-striped">
@@ -10,14 +20,14 @@
         </tr>
         </thead>
         <tbody>
-        <form action="{{books}}" method="post">
-            <input type="submit" name="save" value="Save"/>
+        <form method="POST" action="{{id_books}}" onsubmit="return getContent()">
+            <input type="hidden" id="{{rand}}" name="title" />
+            <input type="hidden" name="id" value="{{data.id}}"/>
+            <input type="submit" />
         </form>
         <tr>
             <td>{{data.id}}</td>
-            <td>
-                <div id="example-one" contenteditable="true">{{data.title}}</div>
-            </td>
+            <td><a ><div class="font-color-red" id="{{rand2}}" contenteditable="true">{{data.title}}</div></a></td>
         </tr>
         </tbody>
     </table>
