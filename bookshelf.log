@@ -272,3 +272,6 @@ Valid SQLite URL forms are:
 2016-01-30 09:17:47,294 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
 2016-01-30 09:17:53,019 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
 2016-01-30 09:18:07,022 - bookshelf - ERROR - Page not found: (u'/favicon.ico', <NotFound '404: Not Found'>)
+2016-02-06 07:21:37,365 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such column: book.description [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.description AS book_description, book.producer AS book_producer \nFROM book \nWHERE book.id = ?\n LIMIT ? OFFSET ?'] [parameters: (1, 1, 0)]
+2016-02-06 07:34:44,218 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such column: book.rating [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.description AS book_description, book.producer AS book_producer \nFROM book \nWHERE book.id = ?\n LIMIT ? OFFSET ?'] [parameters: (1, 1, 0)]
+2016-02-06 07:34:46,699 - bookshelf - ERROR - Unhandled Exception: (sqlite3.OperationalError) no such column: book.rating [SQL: u'SELECT book.id AS book_id, book.title AS book_title, book.rating AS book_rating, book.description AS book_description, book.producer AS book_producer \nFROM book']
