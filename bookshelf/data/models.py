@@ -14,10 +14,11 @@ class Book(db.Model):
     #    author_id = db.Column(db.Integer, db.ForeignKey('author.id'))
     #    author = db.relationship('Author', backref=db.backref('books', lazy='joined'))
 
-    def __init__(self, title, image=None, rating=0):
+    def __init__(self, title, rating=0, desciption=None, producer=None):
         self.title = title
-        self.description = image
+        self.description = desciption
         self.rating = rating
+        self.producer = producer
 
     def __repr__(self):
         return '<Book %r>' % (self.title)

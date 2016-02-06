@@ -4,22 +4,19 @@
     <table class="table table-striped">
         <thead>
         <tr>
-            <th>cover</th>
             <th>title</th>
-            <th>author</th>
             <th>rating</th>
+            <th>description</th>
+            <th>producer</th>
         </tr>
         </thead>
         <tbody>
         {% for data in books %}
         <tr>
-            <td>
-                <!-- <img src="{{ url_for('static', filename='images/books/') }}{{data.image}}"
-                     alt="{{title}}"/> -->
-            </td>
             <td><a href="{{data.id}}">{{data.title | upper}}</a></td>
-            <td>{{data.author}}</td>
             <td>{{data.rating}}</td>
+            <td>{{data.description}}</td>
+            <td>{{data.producer}}</td>
         </tr>
         {% endfor %}
         </tbody>
