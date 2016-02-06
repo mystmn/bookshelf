@@ -31,15 +31,19 @@ def display_books():
 def id_books(get_id):
     rand = hex(random.getrandbits(16))
     rand2 = hex(random.getrandbits(16))
+    rand3 = hex(random.getrandbits(16))
+    rand4 = hex(random.getrandbits(16))
     data = Book.query.filter_by(id=get_id).first()
 
     if request.method == "POST":
         data.title = request.form['title']
+        data.rating = request.form['rank']
+        data.description = request.form['desc']
         db.session.commit()
         return redirect(url_for('.display_books'))
 
     elif request.method == 'GET':
-        return render_template("book.html", data=data, rand=rand, rand2=rand2)
+        return render_template("book.html", data=data, rand=rand, rand2=rand2, rand3=rand3, rand4=rand4)
 
     else:
         return redirect('http://www.runnable.com', 301)

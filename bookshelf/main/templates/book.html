@@ -2,7 +2,9 @@
 {% block container %}
 <script type="text/javascript">
     function getContent(){
-        document.getElementById("{{rand}}").value = document.getElementById("{{rand2}}").innerHTML;
+        document.getElementById("{{rand}}").value = document.getElementById("{{data.id}}").innerHTML;
+        document.getElementById("{{rand2}}").value = document.getElementById("{{data.id}}a").innerHTML;
+        document.getElementById("{{rand3}}").value = document.getElementById("{{data.id}}b").innerHTML;
     }
 
 </script>
@@ -18,20 +20,44 @@
         <tr>
             <th>id</th>
             <th>names</th>
+            <th>rating</th>
+            <th>
+                <form method="POST" action="{{id_books}}" onsubmit="return getContent()">
+                    <input type="hidden" id="{{rand}}" name="title"/>
+                    <input type="hidden" id="{{rand2}}" name="rank"/>
+                    <input type="hidden" id="{{rand3}}" name="desc"/>
+                    <input type="hidden" name="id" value="{{data.id}}"/>
+                    <input type="submit"/>
+                </form>
+            </th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td>{{data.id}}</td>
-            <td><a>
-                <div class="font-color-red" id="{{rand2}}" contenteditable="true">{{data.title}}</div>
-            </a></td>
             <td>
-                <form method="POST" action="{{id_books}}" onsubmit="return getContent()">
-                    <input type="hidden" id="{{rand}}" name="title"/>
-                    <input type="hidden" name="id" value="{{data.id}}"/>
-                    <input type="submit"/>
-                </form>
+                <a>
+                    <div class="font-color-red" id="{{data.id}}" contenteditable="true">{{data.title}}</div>
+                </a>
+            </td>
+            <td>
+                <a>
+                    <div class="font-color-red" id="{{data.id}}a" contenteditable="true">{{data.rating}}</div>
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <div class="font-color-red" id="{{data.id}}b" contenteditable="true">{{data.description}}</div>
             </td>
         </tr>
         </tbody>
