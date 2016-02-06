@@ -43,6 +43,7 @@ def id_books(get_id):
         return redirect(url_for('.display_books'))
 
     elif request.method == 'GET':
+
         return render_template("book.html", data=data, rand=rand, rand2=rand2, rand3=rand3, rand4=rand4)
 
     else:

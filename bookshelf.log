@@ -324,3 +324,4 @@ Valid SQLite URL forms are:
 2016-02-06 10:37:46,561 - bookshelf - ERROR - Page not found: (u'/books/', <NotFound '404: Not Found'>)
 2016-02-06 10:38:19,042 - bookshelf - ERROR - Page not found: (u'/books/', <NotFound '404: Not Found'>)
 2016-02-06 10:38:25,284 - bookshelf - ERROR - Page not found: (u'/books/', <NotFound '404: Not Found'>)
+2016-02-06 11:23:18,198 - bookshelf - ERROR - Unhandled Exception: 'len' is undefined

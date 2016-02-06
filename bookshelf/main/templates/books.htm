@@ -16,7 +16,13 @@
         <tr>
             <td><a href="{{data.id}}">{{data.title | upper}}</a></td>
             <td>{{data.rating}}</td>
-            <td>{{data.description}}</td>
+            <td>
+                {% if data.description|length > 30 %}
+                    {{data.description[0:30]}}...
+                {% else %}
+                    {{data.description}}</td>
+                {% endif %}
+
             <td>{{data.producer}}</td>
             <td>
                 <form method="POST" action="" onsubmit="return confirm('Do you really want to delete - {{data.title}}?');">
