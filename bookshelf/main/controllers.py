@@ -10,11 +10,21 @@ def index():
     return render_template("index.htm")
 
 
-@main.route('books/')
+@main.route('books/', methods=['GET', 'POST'])
 def display_books():
-    books = [book for book in Book.query.all()]
+    if request.method == "POST":
+        book_id = request.form['id']
 
-    return render_template("books.htm", books=books)
+        if request.form['delete'] == "true":
+            Book.query.filter_by(id=book_id).delete()
+            db.session.commit()
+        else:
+            pass
+        return redirect(url_for(".display_books"))
+
+    else:
+        books = [book for book in Book.query.all()]
+        return render_template("books.htm", books=books)
 
 
 @main.route('books/<int:get_id>', methods=['GET', 'POST'])
@@ -33,4 +43,5 @@ def id_books(get_id):
 
     else:
         return redirect('http://www.runnable.com', 301)
-#    return render_template("books.htm", data=data)
+
+# return render_template("books.htm", data=data)

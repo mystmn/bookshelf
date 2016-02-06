@@ -20,6 +20,5 @@ def create_books(db):
 with app.app_context():
 #    db.drop_all()
     db.create_all()
-
     create_books(db)
 

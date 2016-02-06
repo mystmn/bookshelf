@@ -8,6 +8,7 @@
             <th>rating</th>
             <th>description</th>
             <th>producer</th>
+            <th>CRUD</th>
         </tr>
         </thead>
         <tbody>
@@ -17,6 +18,13 @@
             <td>{{data.rating}}</td>
             <td>{{data.description}}</td>
             <td>{{data.producer}}</td>
+            <td>
+                <form method="POST" action="" onsubmit="return confirm('Do you really want to delete - {{data.title}}?');">
+                    <input type="hidden" name="delete" value="true"/>
+                    <input type="hidden" name="id" value="{{data.id}}"/>
+                    <input type="submit" value="Drop"/>
+                </form>
+            </td>
         </tr>
         {% endfor %}
         </tbody>
