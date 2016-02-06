@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, current_app, request, redirect, url_for
-import random
 from bookshelf.data.models import Book, db
+import random
 
 main = Blueprint('main', __name__, template_folder='templates')
 
