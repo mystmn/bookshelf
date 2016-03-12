@@ -1,5 +1,16 @@
 {% extends 'layout.htm' %}
 {% block container %}
+<div id="accordion">
+    <h3>Add Book</h3>
+    <div>
+        <form method="POST" action="{{ url_for('.router') }}" >
+            <input type="hidden" name="code" value="1">
+            <input type="text" name="book_name" placeholder="Name of Book">
+            <input type="text" name="book_author" placeholder="Author of Book">
+            <input type="submit">
+        </form>
+    </div>
+</div>
 <div class="top-pad">
     <table class="table table-striped">
         <thead>
@@ -18,16 +29,18 @@
             <td>{{data.rating}}</td>
             <td>
                 {% if data.description|length > 30 %}
-                    {{data.description[0:30]}}...
+                {{data.description[0:30]}}...
                 {% else %}
-                    {{data.description}}</td>
-                {% endif %}
+                {{data.description}}
+            </td>
+            {% endif %}
 
             <td>{{data.producer}}</td>
             <td>
-                <form method="POST" action="" onsubmit="return confirm('Do you really want to delete - {{data.title}}?');">
-                    <input type="hidden" name="delete" value="true"/>
-                    <input type="hidden" name="id" value="{{data.id}}"/>
+                <form method="POST" action="{{ url_for('.router') }}"
+                      onsubmit="return confirm('Do you really want to delete - {{data.title}}?');">
+                    <input type="hidden" name="code" value="2">
+                    <input type="hidden" name="id" value="{{data.id}}">
                     <input type="submit" value="Drop"/>
                 </form>
             </td>

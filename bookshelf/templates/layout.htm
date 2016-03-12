@@ -9,6 +9,18 @@
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ <script>
+  $(function() {
+    $( "#accordion" ).accordion({
+        active: false,
+        autoheight: true,
+        collapsible: true,
+    });
+  });
+  </script>
 </head>
 <body>
 <nav class="navbar navbar-inverse">

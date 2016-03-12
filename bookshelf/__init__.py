@@ -16,6 +16,7 @@ app.register_blueprint(main, url_prefix='/')
 
 # app.register_blueprint(admin, url_prefix='/admin')
 
+
 @app.errorhandler(404)
 def page_not_found(error):
     app.logger.error('Page not found: %s', (request.path, error))
